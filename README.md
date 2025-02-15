@@ -87,7 +87,8 @@ new Nostfly({
 })
 ```
 
-Note: You can add your own custom close animation class instead of using the available ones.
+> **Note:** You can add your own custom close animation class instead of using the available ones.
+<br>
 **e.g**
 ```javascript
 new Nostfly({
@@ -117,7 +118,8 @@ new Nostfly({
 })
 ```
 
-Note: You can add your own custom open animation class instead of using the available ones.
+> **Note:** You can add your own custom open animation class instead of using the available ones.
+<br>
 **e.g**
 ```javascript
 new Nostfly({
