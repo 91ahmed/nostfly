@@ -171,7 +171,7 @@ new Nostfly({
 
 ``class`` :<br>
 
-This property allow you to add a custom css class to the notification container.
+This property allow you to add a custom **CSS** class to the notification container.
 
 **Property** | **Type** | **Default**
 :--- | :--- | :---
