@@ -40,3 +40,23 @@ new Nostfly({
     style: 'success'
 })
 ```
+
+``position`` :<br>
+You can select the style that suits you from these options:
+- top-right
+- top-left
+- top-center
+- bottom-right
+- bottom-left
+- bottom-center
+
+**Property** | **Type** | **Default**
+:--- | :--- | :---
+``position`` | _string_ | 'top-right'
+
+**e.g**
+```javascript
+new Nostfly({
+    position: 'bottom-right'
+})
+```
