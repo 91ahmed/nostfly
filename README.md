@@ -1,9 +1,13 @@
 # Nostfly
 A lightweight and customizable JavaScript notifications library designed for sleek, non-intrusive alerts. Featuring smooth animations, flexible positioning, and rich customization options, it enhances user experience with effortless integration. Ideal for modern web applications, it supports auto-dismiss, interactive actions, and theme adaptability for a seamless UI.
 
-## Live Demo
+### Live Demo
 
 Experience Nostfly in action live: [Live Demo](https://91ahmed.github.io/projects/nostfly/)
+
+### Download
+
+Get the latest version of RetroNotify: [Download Here](https://91ahmed.github.io/projects/nostfly/nostfly.zip)
 
 ### Install
 ```html
