@@ -1,4 +1,5 @@
 # Nostfly
+A lightweight and customizable JavaScript notifications library designed for sleek, non-intrusive alerts. Featuring smooth animations, flexible positioning, and rich customization options, it enhances user experience with effortless integration. Ideal for modern web applications, it supports auto-dismiss, interactive actions, and theme adaptability for a seamless UI.
 
 ### Install
 ```html
