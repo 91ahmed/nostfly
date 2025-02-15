@@ -167,4 +167,22 @@ new Nostfly({
 })
 ```
 
+<hr>
+
+### Full Example
+```javascript
+new Nostfly ({
+    style: 'attention',
+    position: 'bottom-right',
+    closeAnimate: 'nostfly-close-slide-right',
+    openAnimate: 'nostfly-open-slide-right',
+    iconHeader: true,
+    header: 'Hello Geist', // accept html
+    content: 'Please reach me out as soon as possible.', // accept html
+    auto: true,
+    loader: true,
+    delay: 6000
+})
+```
+
 <img src="https://raw.githubusercontent.com/91ahmed/nostfly/refs/heads/main/nostfly.png?token=GHSAT0AAAAAAC5L4OY3Q3CHG2NUMHPLQ3XEZ5QJCLA" style="width:300px;margin:auto;display:block">
