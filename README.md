@@ -137,7 +137,7 @@ You can set the delay time in **(milliseconds)** by change this property value.
 
 **Property** | **Type** | **Default**
 :--- | :--- | :---
-``delay`` | _number_ | 3000
+``delay`` | _number_ | 4000
 
 <hr>
 
