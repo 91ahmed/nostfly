@@ -7,7 +7,7 @@ Experience Nostfly in action live: [Live Demo](https://91ahmed.github.io/project
 
 ### Download
 
-Get the latest version of RetroNotify: [Download Here](https://91ahmed.github.io/projects/nostfly/nostfly.zip)
+Get the latest version of Nostfly: [Download Here](https://91ahmed.github.io/projects/nostfly/nostfly.zip)
 
 ### Install
 ```html
