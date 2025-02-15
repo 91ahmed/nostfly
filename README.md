@@ -108,3 +108,5 @@ new Nostfly({
     openAnimate: 'nostfly-open-slide-up'
 })
 ```
+
+![Alt text](https://raw.githubusercontent.com/91ahmed/nostfly/refs/heads/main/nostfly.png?token=GHSAT0AAAAAAC5L4OY3Q3CHG2NUMHPLQ3XEZ5QJCLA)
