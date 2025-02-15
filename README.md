@@ -133,7 +133,7 @@ You can set the loader position to either top or bottom.
 
 ``delay`` : <br>
 
-You can set the delay time in (milliseconds) by change this property value.
+You can set the delay time in **(milliseconds)** by change this property value.
 
 **Property** | **Type** | **Default**
 :--- | :--- | :---
