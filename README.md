@@ -169,10 +169,21 @@ new Nostfly({
 
 <hr>
 
+``class`` :<br>
+
+This property allow you to add a custom css class to the notification container.
+
+**Property** | **Type** | **Default**
+:--- | :--- | :---
+``class`` | _string_ | null
+
+<hr>
+
 ### Full Example
 ```javascript
 new Nostfly ({
     style: 'attention',
+    class: 'custom-class',
     position: 'bottom-right',
     closeAnimate: 'nostfly-close-slide-right',
     openAnimate: 'nostfly-open-slide-right',
