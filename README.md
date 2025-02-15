@@ -88,7 +88,7 @@ new Nostfly({
 ```
 <br>
 
-> **Note:** You can add your own custom close animation class instead of using the available ones.
+> **Note:** You can add your own close animation class instead of using the available ones.
 
 <br>
 
@@ -123,7 +123,7 @@ new Nostfly({
 
 <br>
 
-> **Note:** You can add your own custom open animation class instead of using the available ones.
+> **Note:** You can add your own open animation class instead of using the available ones.
 
 <br>
 
