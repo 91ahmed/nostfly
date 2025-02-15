@@ -64,3 +64,47 @@ new Nostfly({
     position: 'bottom-right'
 })
 ```
+
+<hr>
+
+``closeAnimate`` :<br>
+
+You can customize the close animation by choosing from the following options:
+- nostfly-close-slide-right
+- nostfly-close-slide-left
+- nostfly-close-slide-up
+- nostfly-close-slide-down
+- nostfly-close-fade
+
+**Property** | **Type** | **Default**
+:--- | :--- | :---
+``closeAnimate`` | _string_ | 'nostfly-close-slide-right'
+
+**e.g**
+```javascript
+new Nostfly({
+    closeAnimate: 'nostfly-close-slide-up'
+})
+```
+
+<hr>
+
+``openAnimate`` :<br>
+
+You can customize the open animation by choosing from the following options:
+- nostfly-open-slide-right
+- nostfly-open-slide-left
+- nostfly-open-slide-up
+- nostfly-open-slide-down
+- nostfly-open-fade
+
+**Property** | **Type** | **Default**
+:--- | :--- | :---
+``openAnimate`` | _string_ | 'nostfly-open-slide-right'
+
+**e.g**
+```javascript
+new Nostfly({
+    openAnimate: 'nostfly-open-slide-up'
+})
+```
