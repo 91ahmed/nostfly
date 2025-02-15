@@ -159,4 +159,12 @@ You can remove the default **icon header** by change the property value to false
 :--- | :--- | :---
 ``iconHeader`` | _boolean_ | true
 
+**e.g**
+```javascript
+new Nostfly({
+    iconHeader: false,
+    header: 'Your New Header'
+})
+```
+
 <img src="https://raw.githubusercontent.com/91ahmed/nostfly/refs/heads/main/nostfly.png?token=GHSAT0AAAAAAC5L4OY3Q3CHG2NUMHPLQ3XEZ5QJCLA" style="width:300px;margin:auto;display:block">
