@@ -129,4 +129,14 @@ You can set the loader position to either top or bottom.
 :--- | :--- | :---
 ``loaderPosition`` | _string_ | 'top'
 
+<hr>
+
+``delay`` : <br>
+
+You can set the delay time in (milliseconds) by change this property value.
+
+**Property** | **Type** | **Default**
+:--- | :--- | :---
+``delay`` | _number_ | 3000
+
 <img src="https://raw.githubusercontent.com/91ahmed/nostfly/refs/heads/main/nostfly.png?token=GHSAT0AAAAAAC5L4OY3Q3CHG2NUMHPLQ3XEZ5QJCLA" style="width:300px;margin:auto;display:block">
