@@ -139,4 +139,14 @@ You can set the delay time in **(milliseconds)** by change this property value.
 :--- | :--- | :---
 ``delay`` | _number_ | 3000
 
+<hr>
+
+``auto`` :<br>
+
+Automatically remove the notification after the specified delay time expires.
+
+**Property** | **Type** | **Default**
+:--- | :--- | :---
+``auto`` | _boolean_ | true
+
 <img src="https://raw.githubusercontent.com/91ahmed/nostfly/refs/heads/main/nostfly.png?token=GHSAT0AAAAAAC5L4OY3Q3CHG2NUMHPLQ3XEZ5QJCLA" style="width:300px;margin:auto;display:block">
