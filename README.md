@@ -11,8 +11,6 @@ You can select the style that suits you from these options:
 - notify
 - note
 
-
-
-**Property** | **Value** | **Default**
+**Property** | **Type** | **Default**
 :--- | :--- | :---
 ``style`` | _string_ | 'notify'
