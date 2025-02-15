@@ -187,4 +187,4 @@ new Nostfly ({
 })
 ```
 
-<img src="https://raw.githubusercontent.com/91ahmed/nostfly/refs/heads/main/nostfly.png?token=GHSAT0AAAAAAC5L4OY3Q3CHG2NUMHPLQ3XEZ5QJCLA" style="width:300px;margin:auto;display:block">
+<img src="https://github.com/91ahmed/nostfly/blob/v1.0/nostfly.png?raw=true" style="width:300px;margin:auto;display:block">
