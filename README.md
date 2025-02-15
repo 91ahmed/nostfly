@@ -119,4 +119,14 @@ You can choose whether to display the loader or not by changing the loader value
 :--- | :--- | :---
 ``loader`` | _boolean_ | true
 
+<hr>
+
+``loaderPosition`` :<br>
+
+You can set the loader position to either top or bottom.
+
+**Property** | **Type** | **Default**
+:--- | :--- | :---
+``loaderPosition`` | _string_ | 'top'
+
 <img src="https://raw.githubusercontent.com/91ahmed/nostfly/refs/heads/main/nostfly.png?token=GHSAT0AAAAAAC5L4OY3Q3CHG2NUMHPLQ3XEZ5QJCLA" style="width:300px;margin:auto;display:block">
