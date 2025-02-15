@@ -87,6 +87,14 @@ new Nostfly({
 })
 ```
 
+Note: You can add your own custom close animation class instead of using the available ones.
+**e.g**
+```javascript
+new Nostfly({
+    closeAnimate: 'your-custom-close-class'
+})
+```
+
 <hr>
 
 ``openAnimate`` :<br>
@@ -106,6 +114,14 @@ Customize the open animation by choosing from the following options:
 ```javascript
 new Nostfly({
     openAnimate: 'nostfly-open-slide-up'
+})
+```
+
+Note: You can add your own custom open animation class instead of using the available ones.
+**e.g**
+```javascript
+new Nostfly({
+    openAnimate: 'your-custom-open-class'
 })
 ```
 
