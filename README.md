@@ -1,5 +1,13 @@
 # nostfly
 
+### Install
+```html
+<!-- add css file -->
+<link rel="stylesheet" href="nostfly.css">
+
+<!-- add js file -->
+<script src="nostfly.js"></script>
+```
 
 ### Properties 
 ``style`` :<br>
