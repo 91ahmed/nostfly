@@ -1,4 +1,4 @@
-# nostfly
+# Nostfly
 
 ### Install
 ```html
