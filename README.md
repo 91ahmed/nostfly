@@ -95,7 +95,7 @@ new Nostfly({
 **e.g**
 ```javascript
 new Nostfly({
-    closeAnimate: 'your-custom-close-class'
+    closeAnimate: 'your-custom-class'
 })
 ```
 
@@ -130,7 +130,7 @@ new Nostfly({
 **e.g**
 ```javascript
 new Nostfly({
-    openAnimate: 'your-custom-open-class'
+    openAnimate: 'your-custom-class'
 })
 ```
 
