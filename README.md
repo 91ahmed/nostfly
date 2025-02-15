@@ -14,3 +14,10 @@ You can select the style that suits you from these options:
 **Property** | **Type** | **Default**
 :--- | :--- | :---
 ``style`` | _string_ | 'notify'
+
+**e.g**
+```javascript
+new Nostfly({
+    style: 'success'
+})
+```
