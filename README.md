@@ -176,6 +176,8 @@ new Nostfly ({
     position: 'bottom-right',
     closeAnimate: 'nostfly-close-slide-right',
     openAnimate: 'nostfly-open-slide-right',
+    background: '#F85525',
+    color:'#FBFAF2',
     iconHeader: true,
     header: 'Hello Geist', // accept html
     content: 'Please reach me out as soon as possible.', // accept html
