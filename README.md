@@ -10,6 +10,7 @@ You can select the style that suits you from these options:
 - attention
 - notify
 - note
+<br>
 **Property** | **Value** | **Default**
 :--- | :--- | :---
 ``style`` | _string_ | 'notify'
