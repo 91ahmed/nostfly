@@ -14,8 +14,8 @@
 new Nostfly ({
     style: 'warning',
     position: 'top-right',
-    header: 'Your header here',
-    content: 'Your content here',
+    header: 'Your header here', // accept html
+    content: 'Your content here', // accept html
     delay: 5000
 })
 ```
