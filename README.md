@@ -44,7 +44,7 @@ new Nostfly({
 <hr>
 
 ``position`` :<br>
-You can select the style that suits you from these options:
+You can change the notification position to one of the following options:
 - top-right
 - top-left
 - top-center
