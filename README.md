@@ -19,7 +19,7 @@ new Nostfly ({
     delay: 5000
 })
 ```
-
+<hr>
 ### Properties 
 ``style`` :<br>
 You can select the style that suits you from these options:
