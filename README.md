@@ -2,7 +2,7 @@
 
 
 ### Properties 
-_style_ :<br>
+__style__ :<br>
 You can select the style that best suits you from these options:
 - warning
 - success
