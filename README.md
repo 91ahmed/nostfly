@@ -46,7 +46,7 @@ new Nostfly({
 
 ``position`` :<br>
 
-You can change the notification position to one of the following options:
+Change the notification position to one of the following options:
 - top-right
 - top-left
 - top-center
@@ -69,7 +69,7 @@ new Nostfly({
 
 ``closeAnimate`` :<br>
 
-You can customize the close animation by choosing from the following options:
+Customize the close animation by choosing from the following options:
 - nostfly-close-slide-right
 - nostfly-close-slide-left
 - nostfly-close-slide-up
@@ -91,7 +91,7 @@ new Nostfly({
 
 ``openAnimate`` :<br>
 
-You can customize the open animation by choosing from the following options:
+Customize the open animation by choosing from the following options:
 - nostfly-open-slide-right
 - nostfly-open-slide-left
 - nostfly-open-slide-up
