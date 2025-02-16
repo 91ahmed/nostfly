@@ -18,6 +18,11 @@ Get the latest version of Nostfly: [Download Here](https://91ahmed.github.io/pro
 <script src="nostfly.js"></script>
 ```
 
+### Install via npm
+```bash
+npm i nostfly
+```
+
 ### Example
 ```javascript
 new Nostfly ({

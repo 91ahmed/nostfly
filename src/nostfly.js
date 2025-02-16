@@ -343,3 +343,6 @@ class Nostfly
 		}
 	}
 }
+
+
+export default Nostfly
