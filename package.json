@@ -1,0 +1,28 @@
+{
+  "name": "nostfly",
+  "version": "1.0.0",
+  "description": "Javascript notification library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/91ahmed/nostfly.git"
+  },
+  "keywords": [
+    "nostfly",
+    "notifications",
+    "toase-notification",
+    "javascript-toaster",
+    "javascript-notification",
+    "notify",
+    "toast-notify"
+  ],
+  "author": "Ahmed Hassan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/91ahmed/nostfly/issues"
+  },
+  "homepage": "https://github.com/91ahmed/nostfly#readme"
+}

@@ -1,0 +1,230 @@
+/* 
+ Author: Ahmed Hassan
+ Github: github.com/91ahmed
+ Website: 91ahmed.github.io
+ Version: 1.0
+ Date: 2025-02-15
+ Description: Styles for the notification system
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+._nostflyContainer {
+	position:fixed;
+	width:auto;
+	height:auto;
+	max-height:600px;
+	overflow:visible;
+	text-align:center;
+	z-index: 99999999;
+	margin: 20px;
+}
+#_nostflyContainerTopLeft {
+	top:0;left:0;
+}
+#_nostflyContainerTopRight {
+	top:0;right:0;
+}
+#_nostflyContainerTopCenter {
+	top:0;right:0;left:0;margin-left:auto;margin-right:auto;max-width:400px;
+}
+#_nostflyContainerBottomLeft {
+	bottom:0;left:0;
+}
+#_nostflyContainerBottomRight {
+	bottom:0;right:0;
+}
+#_nostflyContainerBottomCenter {
+	bottom:0;right:0;left:0;margin:auto;max-width:400px;
+}
+
+._nostflyMessage {
+	opacity: 0;
+	position: relative;
+	box-sizing: border-box;
+	display: block;
+	width: auto;
+	height: auto;
+	min-width: 255px;
+	max-width: 300px;
+	padding: 20px 35px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: 15px;
+	background-color: #01204E;
+	color: #EEEFC5;
+	font-family: "Nunito Sans", serif;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	z-index: 99999999;
+	overflow: hidden;
+	-webkit-box-shadow:0 2px 4px -1px rgba(0,0,0,.2),0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12)!important;
+	-moz-box-shadow:0 2px 4px -1px rgba(0,0,0,.2),0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12)!important;
+	-ms-box-shadow:0 2px 4px -1px rgba(0,0,0,.2),0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12)!important;
+	-o-box-shadow:0 2px 4px -1px rgba(0,0,0,.2),0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12)!important;
+	box-shadow:0 2px 4px -1px rgba(0,0,0,.2),0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12)!important;
+}
+._nostflyCloseBtn:hover,
+._nostflyCloseBtn:focus,
+._nostflyCloseBtn{
+	position: absolute;
+	width: 40px;
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    font-size: 20px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: 0;
+	box-shadow: none;
+	cursor: pointer;
+	color: #EEEFC5;
+	background-color: transparent;
+}
+._nostflyContent {
+	margin-right: 15px;
+    height: auto;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: clip;
+    word-wrap: break-word;
+}
+._nostflyContent ._nostflyContentBody {
+	display: inline-block;
+	float: left;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+._nostflyContent ._nostflyContentHeader {
+	display: block;
+	margin-bottom: 5px;
+}
+._nostflyContentHeader svg{
+	width: 21px;
+	float: left;
+	margin-top: -1px;
+	margin-right: 5px;
+}
+._nostflyBar{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	width: 100%;
+	height: 3px;
+	background-color: #EEEFC5;
+	display: block;
+	opacity: 0.8;
+}
+._nostflyContentBody a {
+	text-decoration: underline;
+	font-weight: 500;
+}
+
+
+/*******************************************************************
+	Animation 
+
+********************************************************************/
+
+
+/** Close Fade **/
+@keyframes animate_nostfly_close_fade {from {opacity: 1;}to {opacity: 0;}}@-webkit-keyframes animate_nostfly_close_fade {from {opacity: 1;}to {opacity: 0;}}
+/** Close Slide Right **/
+@keyframes animate_nostfly_close_slide_right {from {opacity: 1;-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);-o-transform: translateX(0);transform: translateX(0);}to {opacity: 0;-webkit-transform: translateX(500px);-moz-transform: translateX(500px);-ms-transform: translateX(500px);-o-transform: translateX(500px);transform: translateX(500px);}}@-webkit-keyframes animate_nostfly_close_slide_right {from {opacity: 1;-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);-o-transform: translateX(0);transform: translateX(0);}to {opacity: 0;-webkit-transform: translateX(500px);-moz-transform: translateX(500px);-ms-transform: translateX(500px);-o-transform: translateX(500px);transform: translateX(500px);}}
+/** Close Slide Left **/
+@keyframes animate_nostfly_close_slide_left {from {opacity: 1;-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);-o-transform: translateX(0);transform: translateX(0);}to {opacity: 0;-webkit-transform: translateX(-500px);-moz-transform: translateX(-500px);-ms-transform: translateX(-500px);-o-transform: translateX(-500px);transform: translateX(-500px);}}@-webkit-keyframes animate_nostfly_close_slide_left {from {opacity: 1;-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);-o-transform: translateX(0);transform: translateX(0);}to {opacity: 0;-webkit-transform: translateX(-500px);-moz-transform: translateX(-500px);-ms-transform: translateX(-500px);-o-transform: translateX(-500px);transform: translateX(-500px);}}
+/** Close Slide Down **/
+@keyframes animate_nostfly_close_slide_down {from {opacity: 1;-webkit-transform: translateY(0);-moz-transform: translateY(0);-ms-transform: translateY(0);-o-transform: translateY(0);transform: translateY(0);}to {opacity: 0;-webkit-transform: translateY(500px);-moz-transform: translateY(500px);-ms-transform: translateY(500px);-o-transform: translateY(500px);transform: translateY(500px);}}@-webkit-keyframes animate_nostfly_close_slide_down {from {opacity: 1;-webkit-transform: translateY(0);-moz-transform: translateY(0);-ms-transform: translateY(0);-o-transform: translateY(0);transform: translateY(0);}to {opacity: 0;-webkit-transform: translateY(500px);-moz-transform: translateY(500px);-ms-transform: translateY(500px);-o-transform: translateY(500px);transform: translateY(500px);}}
+/** Close Slide Up **/
+@keyframes animate_nostfly_close_slide_up {from {opacity: 1;-webkit-transform: translateY(0);-moz-transform: translateY(0);-ms-transform: translateY(0);-o-transform: translateY(0);transform: translateY(0);}to {opacity: 0;-webkit-transform: translateY(-500px);-moz-transform: translateY(-500px);-ms-transform: translateY(-500px);-o-transform: translateY(-500px);transform: translateY(-500px);}}@-webkit-keyframes animate_nostfly_close_slide_up {from {opacity: 1;-webkit-transform: translateY(0);-moz-transform: translateY(0);-ms-transform: translateY(0);-o-transform: translateY(0);transform: translateY(0);}to {opacity: 0;-webkit-transform: translateY(-500px);-moz-transform: translateY(-500px);-ms-transform: translateY(-500px);-o-transform: translateY(-500px);transform: translateY(-500px);}}
+/** Open Slide Right **/
+@keyframes animate_nostfly_open_slide_right {from {opacity: 0;-webkit-transform: translateX(500px);-moz-transform: translateX(500px);-ms-transform: translateX(500px);-o-transform: translateX(500px);transform: translateX(500px);}to {opacity: 1;-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);-o-transform: translateX(0);transform: translateX(0);}}@-webkit-keyframes animate_nostfly_open_slide_right {from {opacity: 0;-webkit-transform: translateX(500px);-moz-transform: translateX(500px);-ms-transform: translateX(500px);-o-transform: translateX(500px);transform: translateX(500px);}to {opacity: 1;-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);-o-transform: translateX(0);transform: translateX(0);}}
+/** Open Slide Left **/
+@keyframes animate_nostfly_open_slide_left {from {opacity: 0;-webkit-transform: translateX(-500px);-moz-transform: translateX(-500px);-ms-transform: translateX(-500px);-o-transform: translateX(-500px);transform: translateX(-500px);}to {opacity: 1;-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);-o-transform: translateX(0);transform: translateX(0);}}@-webkit-keyframes animate_nostfly_open_slide_right {from {opacity: 0;-webkit-transform: translateX(-500px);-moz-transform: translateX(-500px);-ms-transform: translateX(-500px);-o-transform: translateX(-500px);transform: translateX(-500px);}to {opacity: 1;-webkit-transform: translateX(0);-moz-transform: translateX(0);-ms-transform: translateX(0);-o-transform: translateX(0);transform: translateX(0);}}
+/** Open Slide Up **/
+@keyframes animate_nostfly_open_slide_up {from {opacity: 0;-webkit-transform: translateY(500px);-moz-transform: translateY(500px);-ms-transform: translateY(500px);-o-transform: translateY(500px);transform: translateY(500px);}to {opacity: 1;-webkit-transform: translateY(0);-moz-transform: translateY(0);-ms-transform: translateY(0);-o-transform: translateY(0);transform: translateY(0);}}@-webkit-keyframes animate_nostfly_close_slide_up {from {opacity: 0;-webkit-transform: translateY(-500px);-moz-transform: translateY(-500px);-ms-transform: translateY(-500px);-o-transform: translateY(-500px);transform: translateY(-500px);}to {opacity: 1;-webkit-transform: translateY(0);-moz-transform: translateY(0);-ms-transform: translateY(0);-o-transform: translateY(0);transform: translateY(0);}}
+/** Open Slide Down **/
+@keyframes animate_nostfly_open_slide_down {from {opacity: 0;-webkit-transform: translateY(-500px);-moz-transform: translateY(-500px);-ms-transform: translateY(-500px);-o-transform: translateY(-500px);transform: translateY(-500px);}to {opacity: 1;-webkit-transform: translateY(0);-moz-transform: translateY(0);-ms-transform: translateY(0);-o-transform: translateY(0);transform: translateY(0);}}@-webkit-keyframes animate_nostfly_open_slide_down {from {opacity: 0;-webkit-transform: translateY(-500px);-moz-transform: translateY(-500px);-ms-transform: translateY(-500px);-o-transform: translateY(-500px);transform: translateY(-500px);}to {opacity: 1;-webkit-transform: translateY(0);-moz-transform: translateY(0);-ms-transform: translateY(0);-o-transform: translateY(0);transform: translateY(0);}}
+/** Open Fade **/
+@keyframes animate_nostfly_open_fade {from {opacity: 0;}to {opacity: 1;}}@-webkit-keyframes animate_nostfly_open_fade {from {opacity: 0;}to {opacity: 1;}}
+
+.nostfly-close-slide-right {
+	-webkit-animation: animate_nostfly_close_slide_right 0.5s ease-in-out forwards;
+	-moz-animation: animate_nostfly_close_slide_right 0.5s ease-in-out forwards;
+	-ms-animation: animate_nostfly_close_slide_right 0.5s ease-in-out forwards;
+	-o-animation: animate_nostfly_close_slide_right 0.5s ease-in-out forwards;
+	animation: animate_nostfly_close_slide_right 0.5s ease-in-out forwards;
+}
+.nostfly-close-slide-left {
+	-webkit-animation: animate_nostfly_close_slide_left 0.5s ease-in-out forwards;
+	-moz-animation: animate_nostfly_close_slide_left 0.5s ease-in-out forwards;
+	-ms-animation: animate_nostfly_close_slide_left 0.5s ease-in-out forwards;
+	-o-animation: animate_nostfly_close_slide_left 0.5s ease-in-out forwards;
+	animation: animate_nostfly_close_slide_left 0.5s ease-in-out forwards;
+}
+.nostfly-close-slide-down {
+	-webkit-animation: animate_nostfly_close_slide_down 0.5s ease-in-out forwards;
+	-moz-animation: animate_nostfly_close_slide_down 0.5s ease-in-out forwards;
+	-ms-animation: animate_nostfly_close_slide_down 0.5s ease-in-out forwards;
+	-o-animation: animate_nostfly_close_slide_down 0.5s ease-in-out forwards;
+	animation: animate_nostfly_close_slide_down 0.5s ease-in-out forwards;
+}
+.nostfly-close-slide-up {
+	-webkit-animation: animate_nostfly_close_slide_up 0.5s ease-in-out forwards;
+	-moz-animation: animate_nostfly_close_slide_up 0.5s ease-in-out forwards;
+	-ms-animation: animate_nostfly_close_slide_up 0.5s ease-in-out forwards;
+	-o-animation: animate_nostfly_close_slide_up 0.5s ease-in-out forwards;
+	animation: animate_nostfly_close_slide_up 0.5s ease-in-out forwards;
+}
+.nostfly-close-fade {
+	-webkit-animation: animate_nostfly_close_fade 0.5s ease-in-out forwards;
+	-moz-animation: animate_nostfly_close_fade 0.5s ease-in-out forwards;
+	-ms-animation: animate_nostfly_close_fade 0.5s ease-in-out forwards;
+	-o-animation: animate_nostfly_close_fade 0.5s ease-in-out forwards;
+	animation: animate_nostfly_close_fade 0.5s ease-in-out forwards;
+}
+
+
+.nostfly-open-slide-right {
+	-webkit-animation: animate_nostfly_open_slide_right 0.5s ease-in-out forwards;
+	-moz-animation: animate_nostfly_open_slide_right 0.5s ease-in-out forwards;
+	-ms-animation: animate_nostfly_open_slide_right 0.5s ease-in-out forwards;
+	-o-animation: animate_nostfly_open_slide_right 0.5s ease-in-out forwards;
+	animation: animate_nostfly_open_slide_right 0.5s ease-in-out forwards;
+}
+.nostfly-open-slide-left {
+	-webkit-animation: animate_nostfly_open_slide_left 0.5s ease-in-out forwards;
+	-moz-animation: animate_nostfly_open_slide_left 0.5s ease-in-out forwards;
+	-ms-animation: animate_nostfly_open_slide_left 0.5s ease-in-out forwards;
+	-o-animation: animate_nostfly_open_slide_left 0.5s ease-in-out forwards;
+	animation: animate_nostfly_open_slide_left 0.5s ease-in-out forwards;
+}
+.nostfly-open-slide-up {
+	-webkit-animation: animate_nostfly_open_slide_up 0.5s ease-in-out forwards;
+	-moz-animation: animate_nostfly_open_slide_up 0.5s ease-in-out forwards;
+	-ms-animation: animate_nostfly_open_slide_up 0.5s ease-in-out forwards;
+	-o-animation: animate_nostfly_open_slide_up 0.5s ease-in-out forwards;
+	animation: animate_nostfly_open_slide_up 0.5s ease-in-out forwards;
+}
+.nostfly-open-slide-down {
+	-webkit-animation: animate_nostfly_open_slide_down 0.5s ease-in-out forwards;
+	-moz-animation: animate_nostfly_open_slide_down 0.5s ease-in-out forwards;
+	-ms-animation: animate_nostfly_open_slide_down 0.5s ease-in-out forwards;
+	-o-animation: animate_nostfly_open_slide_down 0.5s ease-in-out forwards;
+	animation: animate_nostfly_open_slide_down 0.5s ease-in-out forwards;
+}
+.nostfly-open-fade {
+	-webkit-animation: animate_nostfly_open_fade 0.5s ease-in-out forwards;
+	-moz-animation: animate_nostfly_open_fade 0.5s ease-in-out forwards;
+	-ms-animation: animate_nostfly_open_fade 0.5s ease-in-out forwards;
+	-o-animation: animate_nostfly_open_fade 0.5s ease-in-out forwards;
+	animation: animate_nostfly_open_fade 0.5s ease-in-out forwards;
+}
