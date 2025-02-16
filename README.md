@@ -5,11 +5,9 @@ A lightweight and customizable JavaScript notifications library designed for sle
 
 Experience Nostfly in action live: [Live Demo](https://91ahmed.github.io/projects/nostfly/)
 
-### Download
-
-Get the latest version of Nostfly: [Download Here](https://91ahmed.github.io/projects/nostfly/nostfly.zip)
 
 ### Install
+Get the latest version of Nostfly: [Download Here](https://91ahmed.github.io/projects/nostfly/nostfly.zip)
 ```html
 <!-- add css file -->
 <link rel="stylesheet" href="nostfly.css">
