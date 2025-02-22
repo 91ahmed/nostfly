@@ -3,7 +3,7 @@ A lightweight and customizable JavaScript notifications library designed for sle
 
 ### Live Demo
 
-Experience Nostfly in action live: [Live Demo](https://91ahmed.github.io/projects/nostfly/)
+Experience Nostfly in action live: [Live Demo](https://91ahmed.github.io/projects/nostfly/) .
 
 
 ### Install
