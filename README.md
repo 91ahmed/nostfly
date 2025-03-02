@@ -7,13 +7,22 @@ Experience Nostfly in action live: [Live Demo](https://91ahmed.github.io/project
 
 
 ### Install
-Get the latest version of Nostfly: [Download Here](https://91ahmed.github.io/projects/nostfly/nostfly.zip)
+Use the CDN files
 ```html
-<!-- add css file -->
-<link rel="stylesheet" href="nostfly.css">
+<!-- Css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/91ahmed/nostfly/dist/css/nostfly.min.css">
 
-<!-- add js file -->
-<script src="nostfly.js"></script>
+<!-- Js -->
+<script src="https://cdn.jsdelivr.net/gh/91ahmed/nostfly/dist/js/nostfly.min.js"></script>
+```
+
+Or get the latest version of Nostfly: [Download Here](https://91ahmed.github.io/projects/nostfly/nostfly.zip)
+```html
+<!-- Css -->
+<link rel="stylesheet" href="nostfly.min.css">
+
+<!-- Js -->
+<script src="nostfly.min.js"></script>
 ```
 
 ### Install via npm
