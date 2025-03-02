@@ -16,7 +16,7 @@ Use the CDN files
 <script src="https://cdn.jsdelivr.net/gh/91ahmed/nostfly/dist/js/nostfly.min.js"></script>
 ```
 
-Or get the latest version of Nostfly: [Download Here](https://91ahmed.github.io/projects/nostfly/nostfly.zip)
+Or download the latest version of Nostfly: [Download Here](https://91ahmed.github.io/projects/nostfly/nostfly.zip)
 ```html
 <!-- Css -->
 <link rel="stylesheet" href="nostfly.min.css">
