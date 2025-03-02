@@ -201,7 +201,9 @@ class Nostfly
 				${header}
 				<p class='_nostflyContentBody'>${this.opt.content}</p>
 			</div>
-			<button type="button" class="_nostflyCloseBtn" id="${this.nostflyCloseID}">×</button>
+			<button type="button" class="_nostflyCloseBtn" id="${this.nostflyCloseID}">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m18 6l-6 6m0 0l-6 6m6-6l6 6m-6-6L6 6" color="currentColor"/></svg>
+			</button>
 		`
 		return this.nostflyMessage
 	}
@@ -343,6 +345,5 @@ class Nostfly
 		}
 	}
 }
-
 
 export default Nostfly

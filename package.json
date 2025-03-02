@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/91ahmed/nostfly/issues"
   },
-  "homepage": "https://github.com/91ahmed/nostfly#readme"
+  "homepage": "https://github.com/91ahmed/nostfly#readme",
+  "dependencies": {
+    "terser": "^5.39.0"
+  }
 }
